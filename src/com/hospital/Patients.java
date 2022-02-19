@@ -18,7 +18,7 @@ public class Patients {
         this.dateOfDischarge = dateDisc;
     }
 
-    //Modifiers(Getters)
+    //Mutator(Getters)
     public String getName() {
         return name;
     }
