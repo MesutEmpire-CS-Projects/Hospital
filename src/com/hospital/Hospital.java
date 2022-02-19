@@ -126,10 +126,6 @@ public class Hospital {
                 //Exit from the loop
                 break;
             }
-//                //Display the Patients Records
-//                System.out.println(displayPatients());
-
-
             Scanner continueResponse = new Scanner(System.in);  // Create a Scanner object
             System.out.println("Do you want to continue to create another patient record?  (Yes/No)");
 
