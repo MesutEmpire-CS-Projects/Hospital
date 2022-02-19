@@ -1,26 +1,27 @@
 package com.hospital;
 
 public class Date {
-    private int date;
-    private int day;
-    private int year;
+
+    private String admDate;
 
 
-    public void setDate(int newDate,int newDay,int newYear) {
-        this.date = newDate;
-        this.day = newDay;
-        this.year = newYear;
+    private String disDate;
+
+    public String getAdmissionDate() {
+
+        return this.admDate;
     }
 
-    public int getDate() {
-        return date;
+    public void setAdmissionDate(String newAdmDate) {
+        this.admDate = newAdmDate;
     }
 
-    public int getDay() {
-        return day;
+    public String getDischargeDate() {
+
+        return this.disDate;
     }
 
-    public int getYear() {
-        return year;
+    public void setDischargeDate(String newDisDate) {
+        this.disDate = newDisDate;
     }
 }

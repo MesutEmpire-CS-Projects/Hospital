@@ -4,26 +4,18 @@ package com.hospital;
 public class Patients {
     //com.hospital.Patients Details
     private String name;
-    private int age;
+    private double age;
     private String disease;
-    private int dateOfAdmission;
-    private int dateOfDischarge;
+    private String dateOfAdmission;
+    private String dateOfDischarge;
 
     // Constructor Method
-    public void setPatient(String name,int age,String disease){
+    public void setPatient(String name, double age, String disease, String dateAdmin, String dateDisc) {
         this.name = name;
         this.age = age;
         this.disease = disease;
-    };
-
-    //Accessor(setters)
-
-    public void setDateOfAdmission(int dateOfAdmission) {
-        this.dateOfAdmission = dateOfAdmission;
-    }
-
-    public void setDateOfDischarge(int dateOfDischarge) {
-        this.dateOfDischarge = dateOfDischarge;
+        this.dateOfAdmission = dateAdmin;
+        this.dateOfDischarge = dateDisc;
     }
 
     //Modifiers(Getters)
@@ -31,7 +23,7 @@ public class Patients {
         return name;
     }
 
-    public int getAge() {
+    public double getAge() {
         return age;
     }
 
@@ -39,11 +31,11 @@ public class Patients {
         return disease;
     }
 
-    public int getDateOfAdmission() {
+    public String getDateOfAdmission() {
         return dateOfAdmission;
     }
 
-    public int getDateOfDischarge() {
+    public String getDateOfDischarge() {
         return dateOfDischarge;
     }
 }
