@@ -2,11 +2,11 @@ package com.hospital;
 
 //CLass of com.hospital.Date
 public class Date {
-    //com.hospital.Date Details
+    // com.hospital.Date Details
     private String admDate;
     private String disDate;
 
-    //Mutator(Getters)
+    // Mutator(Getters)
     public String getDischargeDate() {
 
         return this.disDate;
@@ -17,7 +17,7 @@ public class Date {
         this.disDate = newDisDate;
     }
 
-    //Mutator(Getters)
+    // Mutator(Getters)
     public String getAdmissionDate() {
         return this.admDate;
     }

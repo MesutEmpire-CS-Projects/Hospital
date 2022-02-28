@@ -2,7 +2,7 @@ package com.hospital;
 
 //CLass of com.hospital.Patients
 public class Patients {
-    //com.hospital.Patients Details
+    // com.hospital.Patients Details
     private String name;
     private double age;
     private String disease;
@@ -18,7 +18,7 @@ public class Patients {
         this.dateOfDischarge = dateDisc;
     }
 
-    //Mutator(Getters)
+    // Mutator(Getters)
     public String getName() {
         return name;
     }
