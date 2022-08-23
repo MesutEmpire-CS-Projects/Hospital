@@ -15,7 +15,6 @@ This is a database regarding indoor patients that includes the Name of the patie
 - Navigate to the folder and run the command : git clone https://github.com/MesutEmpire/Hospital.git
 - Open on preferred code editor
 
-  [Link to the website](https://mesutempire.github.io/Hospital/)
 
 ## Known Bugs
 
